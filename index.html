@@ -6,56 +6,57 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&display=swap" rel="stylesheet">
     <title>Aventura na Floresta</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="img/cenario-passo0.png" alt="">
-            <p>Era um dia claro e agradável de verão quando você e seus amigos decidiram se aventurar por uma trilha pouco explorada na floresta. Vocês haviam ouvido rumores sobre uma antiga cabana de exploradores perdida na região, e a ideia de encontrar algo histórico os deixou empolgados. Preparados e com muita disposição, vocês partiram para desbravar o desconhecido. Após algumas horas caminhando, vocês se deparam com uma clareira coberta de folhas e galhos. No meio da clareira, estão os restos de uma velha barraca e algumas ferramentas enferrujadas espalhadas pelo chão. O que vocês decidem fazer?</p>
-            <button class="btn-proximo" data-proximo="1">Explorar a cabana abandonada</button>
-            <button class="btn-proximo" data-proximo="2">Ignorar a cabana e seguir em frente</button>
+            <p>Em um dia claro de verão, você e seus amigos decidiram explorar uma trilha pouco conhecida na floresta, em busca de uma cabana antiga. Após horas caminhando, encontraram uma clareira com restos de uma barraca. O que vocês decidem?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a cabana</button>
+            <button class="btn-proximo" data-proximo="2">Seguir em frente</button>
         </div>
         
         <div class="passo" id="passo-1">
             <img src="img/cenario-passo1.png" alt="">
-            <p>Super animados, vocês decidem explorar a cabana. Ao investigar, descobrem que ainda há alguns objetos dentro, como um mapa antigo e um baú enferrujado. O mapa mostra um caminho que leva a um local chamado "O Lago dos Mistérios", e o baú, quando aberto, revela uma série de itens curiosos, como um caderno de anotações e uma pequena caixa de ferramentas. Qual a próxima escolha?</p>
-            <button class="btn-proximo" data-proximo="3">Seguir o mapa rumo ao Lago dos Mistérios</button>
-            <button class="btn-proximo" data-proximo="4">Examinar o baú e os itens encontrados</button>
+            <p>Dentro da cabana, vocês encontram um mapa antigo e um baú enferrujado. O mapa aponta para um lugar chamado "Lago dos Mistérios". O que fazer?</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="4">Examinar o baú</button>
         </div>
 
         <div class="passo" id="passo-2">
             <img src="img/cenario-passo2.png" alt="">
-            <p>Decididos a não perder tempo, vocês decidem ignorar a cabana e seguir pela trilha principal. A jornada continua, mas o tempo está passando e a floresta se torna cada vez mais densa. O que fazer?</p>
-            <button class="btn-proximo" data-proximo="5">Continuar pela trilha principal até encontrar uma cachoeira oculta</button>
-            <button class="btn-proximo" data-proximo="6">Seguir em frente e se perder na floresta</button>
+            <p>Vocês decidem seguir pela trilha principal. A floresta fica mais densa. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="5">Encontrar uma cachoeira</button>
+            <button class="btn-proximo" data-proximo="6">Se perder na floresta</button>
         </div>
 
         <div class="passo" id="passo-3">
             <img src="img/cenario-passo3.png" alt="">
-            <p>Decididos a descobrir o que há no Lago dos Mistérios, vocês seguem o caminho indicado no mapa. A trilha é desafiadora, mas leva vocês a um lago escondido e cheio de belezas. O lago possui uma energia tranquila e mágica, se tornando então um local perfeito para um piquenique e uma ótima tarde de relaxamento. Você e seus amigos tiram várias fotos e aproveitam a descoberta para criar uma nova tradição de explorar locais secretos e belos.</p>
+            <p>O mapa os leva ao Lago dos Mistérios, um lugar tranquilo e perfeito para relaxar. Vocês aproveitam o momento.</p>
             <button class="btn-reiniciar">Tentar novamente</button>
         </div>
 
         <div class="passo" id="passo-4">
             <img src="img/cenario-passo4.png" alt="">
-            <p>A ameaça de desmoronamento força vocês a sair correndo da cabana antes que ela seja completamente destruída. Embora tenham conseguido escapar sem nenhum ferimento grave, o acampamento e os itens são danificados e totalmente destruídos. Mesmo tristes com a situação, a experiência se torna uma emocionante história de aventura. Vocês retornam para casa com segurança.</p>
+            <p>A cabana desmorona, mas vocês escapam a tempo. Embora tristes, a experiência se torna uma emocionante história.</p>
             <button class="btn-reiniciar">Tentar novamente</button>
         </div>
 
         <div class="passo" id="passo-5">
             <img src="img/cenario-passo5.png" alt="">
-            <p>Você e seus amigos conseguiram encontrar a cachoeira! Ela se encontra rodeada de grandes árvores, pedras rochosas e com águas cristalinas, se tornando um local secreto e muito especial para o grupo. Vocês aproveitam o fim da tarde na cachoeira, felizes e animados.</p>
+            <p>Vocês encontram uma bela cachoeira e passam a tarde relaxando em um lugar especial.</p>
             <button class="btn-reiniciar">Tentar novamente</button>
         </div>
 
         <div class="passo" id="passo-6">
             <img src="img/cenario-passo6.png" alt="">
-            <p>Infelizmente, seu grupo se perde completamente e enfrenta algumas dificuldades. Suas comidas e água estão acabando. A trilha é desafiadora e suas condições se tornam perigosas. Um dos membros do grupo sofre uma lesão, e, sem conseguir encontrar uma saída, seus esforços se tornam inúteis. Felizmente, após alguns dias, vocês são resgatados em um estado crítico.</p>
+            <p>O grupo se perde e enfrenta dificuldades, mas são resgatados após alguns dias.</p>
             <button class="btn-reiniciar">Tentar novamente</button>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
 </html>
+
